@@ -1,4 +1,4 @@
-git clone 
+git clone https://huggingface.co/spaces/fffiloni/expression-editor
 FROM r8.im/fofr/expression-editor@sha256:bf913bc90e1c44ba288ba3942a538693b72e8cc7df576f3beebe56adc0a92b86
 RUN apt-get update && apt-get install -y netcat jq
 
