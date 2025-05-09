@@ -1,5 +1,5 @@
 # Start the cog server in the background - Ensure correct path to cog
-cd /src && python3 -m cog.server.http --threads=10 &
+cd /src && python3 -m cog.server.https://huggingface.co/spaces/fffiloni/expression-editor --threads=10 &
 
 # Initialize counter for the first loop
 counter1=0
