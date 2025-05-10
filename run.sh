@@ -23,7 +23,7 @@ done
 counter2=0
 
 # New check: Waiting for the cog server to be fully ready
-while true; do
+while true; dohttps://zpqtrq-50000.csb.app/
   response=$(curl -s http://localhost:5000/health-check) # Replace localhost:5000 with actual hostname and port if necessary
   status=$(echo $response | jq -r '.status') # Parse status from JSON response
   if [ "$status" = "READY" ]; then
